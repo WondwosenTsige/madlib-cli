@@ -1,28 +1,26 @@
+import re
 def greetings():
     
     print( """
 
     **************************************
-    **    Welcome to the Snakes Cafe!   **
-    **    Please see our menu below.    **
-    **
-    ** To quit at any time, type "quit" **
+    **    Welcome to the madlib game!   **
+    
+    
+    ** Instructions to play this game   **
     **************************************
     """)
 
 def read_template(filePath):
-    with open(filePath) as target_file:
+    with open(filePath, "r") as target_file:
         file_contents = target_file.read()
         return file_contents
 
 
-#def parse_template(result):
+def parse_template(words):
+    
 
 
+def merge(words, tuple):
 
 
-
-
-
-
-#def merge():
